@@ -43,4 +43,66 @@ img {
 
 body {
   font-family: "Roboto", sans-serif;
+}
+
+.header {
+  padding-top: 30px;
+}
+@media screen and (min-width: 1325px) {
+  .header {
+    padding-top: 25px;
+  }
+}
+.header__menu {
+  background-color: transparent;
+  border: none;
+}
+@media screen and (min-width: 1325px) {
+  .header__menu {
+    display: none;
+  }
+}
+@media screen and (min-width: 1325px) {
+  .header__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+}
+.header__nav {
+  display: none;
+}
+@media screen and (min-width: 1325px) {
+  .header__nav {
+    display: block;
+  }
+}
+.header__list {
+  display: flex;
+  gap: 39px;
+}
+.header__link {
+  color: #252525;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__contact {
+  display: none;
+}
+@media screen and (min-width: 1325px) {
+  .header__contact {
+    display: block;
+    padding: 18px 23px 16px 42px;
+    border-radius: 27px;
+    background: #D80808;
+    border: none;
+    position: absolute;
+    right: 0;
+    color: #FFF;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: normal;
+  }
 }/*# sourceMappingURL=main.css.map */
